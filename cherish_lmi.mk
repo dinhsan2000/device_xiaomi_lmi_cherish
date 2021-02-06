@@ -26,10 +26,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cherish_lmi
-PRODUCT_DEVICE := lmi
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := F2 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys"
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ1A.210205.004 7038034 release-keys" \
+    PRODUCT_NAME="lmi"
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys
