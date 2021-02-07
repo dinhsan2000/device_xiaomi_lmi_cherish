@@ -207,3 +207,7 @@ BOARD_BUILD_PRODUCT_IMAGE := true
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0
+    
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
