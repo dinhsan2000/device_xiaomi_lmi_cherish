@@ -26,6 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cherish_lmi
+PRODUCT_DEVICE := lmi	
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := F2 Pro
 PRODUCT_MANUFACTURER := Xiaomi
