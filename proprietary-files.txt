@@ -725,3 +725,17 @@ system_ext/priv-app/ims/lib/arm64/libimsmedia_jni.so
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys"
+
+# Camera Motor
+media/audio/ui/popup_cangmen_down.ogg
+media/audio/ui/popup_cangmen_up.ogg
+media/audio/ui/popup_chilun_down.ogg
+media/audio/ui/popup_chilun_up.ogg
+media/audio/ui/popup_jijia_down.ogg
+media/audio/ui/popup_jijia_up.ogg
+media/audio/ui/popup_mofa_down.ogg
+media/audio/ui/popup_mofa_up.ogg
+media/audio/ui/popup_muqin_down.ogg
+media/audio/ui/popup_muqin_up.ogg
+media/audio/ui/popup_yingyan_down.ogg
+media/audio/ui/popup_yingyan_up.ogg
